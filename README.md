@@ -31,7 +31,7 @@ This project implements a simplified Retrieval-Augmented Generation (RAG) pipeli
 ### Setup
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/ShaistaShabbir-prog/RAG_LANGCHAIN.git
    cd RAG_LANGCHAIN
    ```
 2. Create a virtual environment:
