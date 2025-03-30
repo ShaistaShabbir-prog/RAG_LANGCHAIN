@@ -1,0 +1,6 @@
+Document 1: The Eiffel Tower is one of the most famous landmarks in the world. Located in Paris, France, it was designed by the engineer Gustave Eiffel and completed in 1889. Standing at 330 meters tall, the tower was initially a temporary structure for the 1889 Exposition Universelle (World's Fair). Today, it serves as a major tourist attraction and an iconic symbol of France.
+
+Document 2: Paris, the capital of France, is known for its rich history, stunning architecture, and vibrant culture. It is often called "The City of Light" due to its influence during the Age of Enlightenment and its early adoption of street lighting. Paris is famous for landmarks such as the Eiffel Tower, the Louvre Museum, Notre-Dame Cathedral, and the Champs-Élysées.
+
+Document 3: The Eiffel Tower is located on the Champ de Mars, a large public greenspace in Paris. Visitors can ascend the tower to enjoy breathtaking views of the city. The tower is divided into three levels, with restaurants on the first and second levels, while the top level offers panoramic views. Each year, millions of tourists visit the Eiffel Tower to experience its beauty and history.
+

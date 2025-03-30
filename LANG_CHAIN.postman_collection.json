@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "83844277-c72f-41cd-b633-a546b6dc3603",
+		"name": "LANG_CHAIN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28441948"
+	},
+	"item": [
+		{
+			"name": "query request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ingest request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

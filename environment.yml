@@ -1,0 +1,12 @@
+name: rag_env
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - langchain
+      - fastapi
+      - uvicorn
+      - sentence-transformers
+      - faiss-cpu
+      - huggingface_hub
+      - python-dotenv
