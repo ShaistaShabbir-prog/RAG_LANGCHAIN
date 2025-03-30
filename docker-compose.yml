@@ -4,6 +4,6 @@ services:
   rag_api:
     build: .
     ports:
-      - "8000:8000"
+      - "10500:10500"
     env_file:
       - .env
