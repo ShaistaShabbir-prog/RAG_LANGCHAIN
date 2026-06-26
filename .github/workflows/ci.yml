@@ -1,22 +1,16 @@
 name: CI
-on:
-  push:
-    branches: [main, master, dev]
-  pull_request:
-    branches: [main, master]
-
+on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - name: Install dependencies
-        run: pip install -r requirements.txt || pip install -e '.[dev]' || true
-
-      - name: Run tests
-        run: pytest tests/ -v --tb=short || echo 'No tests yet'
+        with: {python-version: '3.11'}
+      - run: pip install -r requirements.txt
+      - name: Lint
+        run: pip install ruff && ruff check rag_project/ --ignore E501 || true
+      - name: Test
+        run: pytest tests/ -v --tb=short || echo "No tests yet"
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: test-placeholder
